@@ -42,11 +42,11 @@ def plot_cuadrado(A, T):
 def icoseno():
     interactive_plot_seno = interactive(plot_coseno, A=(0, 20.), T=(0.1, 5, 0.1))
     output = interactive_plot_seno.children[-1]
-    output.layout.height = '10px'
+    output.layout.height = '350px'
     return interactive_plot_seno
 
 def icuadrado():    
     interactive_plot_cuadrado = interactive(plot_cuadrado, A=(0, 20.), T=(0.1, 10, 0.5))
     output = interactive_plot_cuadrado.children[-1]
-    output.layout.height = '10px'
+    output.layout.height = '350px'
     return interactive_plot_cuadrado
